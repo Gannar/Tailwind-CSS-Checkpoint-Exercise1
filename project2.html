@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <h1 class="text-2xl font-bold">My Blog</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-blue-500">Home</a></li>
+                    <li><a href="#" class="hover:text-blue-500">Categories</a></li>
+                    <li><a href="#" class="hover:text-blue-500">About</a></li>
+                    <li><a href="#" class="hover:text-blue-500">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-64 flex items-center justify-center text-white" style="background-image: url('https://img.freepik.com/free-photo/flowers-notebook-near-laptop_23-2147759307.jpg?w=360');">
+        <h2 class="text-4xl font-bold">Welcome to My Blog</h2>
+    </section>
+
+    <!-- Featured Posts -->
+    <section class="container mx-auto py-10">
+        <h3 class="text-3xl font-semibold text-center mb-6">Featured Posts</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="https://source.unsplash.com/400x250/?nature" alt="Post" class="w-full">
+                <div class="p-4">
+                    <h4 class="text-xl font-bold">Blog Post Title</h4>
+                    <p class="text-gray-600 mt-2">A short excerpt from the blog post...</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="https://source.unsplash.com/400x250/?technology" alt="Post" class="w-full">
+                <div class="p-4">
+                    <h4 class="text-xl font-bold">Another Blog Post</h4>
+                    <p class="text-gray-600 mt-2">An interesting read about technology...</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="https://source.unsplash.com/400x250/?travel" alt="Post" class="w-full">
+                <div class="p-4">
+                    <h4 class="text-xl font-bold">Travel Adventures</h4>
+                    <p class="text-gray-600 mt-2">Exploring new places and cultures...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="container mx-auto py-10">
+        <h3 class="text-3xl font-semibold text-center mb-6">Categories</h3>
+        <div class="flex justify-center space-x-4">
+            <span class="bg-blue-500 text-white px-4 py-2 rounded-full">Technology</span>
+            <span class="bg-green-500 text-white px-4 py-2 rounded-full">Nature</span>
+            <span class="bg-yellow-500 text-white px-4 py-2 rounded-full">Lifestyle</span>
+            <span class="bg-red-500 text-white px-4 py-2 rounded-full">Travel</span>
+        </div>
+    </section>
+
+    <!-- Recent Posts -->
+    <section class="container mx-auto py-10">
+        <h3 class="text-3xl font-semibold text-center mb-6">Recent Posts</h3>
+        <div class="bg-white shadow-md rounded-lg p-6">
+            <ul class="space-y-4">
+                <li class="flex justify-between border-b pb-2">
+                    <span class="text-lg">How to Improve Your Coding Skills</span>
+                    <span class="text-gray-500">March 1, 2025</span>
+                </li>
+                <li class="flex justify-between border-b pb-2">
+                    <span class="text-lg">Top 10 Travel Destinations</span>
+                    <span class="text-gray-500">February 25, 2025</span>
+                </li>
+                <li class="flex justify-between">
+                    <span class="text-lg">Understanding AI and Machine Learning</span>
+                    <span class="text-gray-500">February 20, 2025</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+<!-- Newsletter Subscription -->
+    <section class="container mx-auto py-10 text-center">
+        <h3 class="text-3xl font-semibold mb-4">Subscribe to Our Newsletter</h3>
+        <p class="text-gray-600 mb-4">Stay updated with our latest posts.</p>
+        <div class="max-w-md mx-auto bg-white shadow-md rounded-lg p-6">
+            <form>
+                <input type="email" class="w-full border px-4 py-2 rounded-md mb-4" placeholder="Enter your email">
+                <button class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-10">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <p>&copy; 2025 My Blog. All rights reserved.</p>
+            <div class="flex space-x-4">
+                <a href="#" class="hover:text-blue-400">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="w-6 h-6">
+                </a>
+                <a href="#" class="hover:text-blue-400">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" class="w-6 h-6">
+                </a>
+                <a href="#" class="hover:text-blue-400">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" class="w-6 h-6">
+                </a>
+                <a href="#" class="hover:text-blue-400">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png" alt="LinkedIn" class="w-6 h-6">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
