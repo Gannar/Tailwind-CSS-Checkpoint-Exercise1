@@ -1,16 +1,16 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-gray-100 text-gray-900">
-    
     <!-- Header -->
-    <header class="bg-white shadow-md p-4 flex justify-between items-center">
+    <header class="bg-white shadow-md py-4 px-6 flex justify-between items-center">
         <h1 class="text-2xl font-bold">Gannar Meriam</h1>
         <nav>
             <ul class="flex space-x-6">
@@ -22,53 +22,59 @@
     </header>
     
     <!-- Hero Section -->
-    <section id="home" class="h-screen bg-cover bg-center flex items-center justify-center text-center text-white" style="background-image: url('https://st4.depositphotos.com/36924814/39461/i/450/depositphotos_394617890-stock-photo-dot-white-blue-wave-light.jpg">
+    <section id="home" class="h-screen flex items-center justify-center bg-cover bg-center text-center text-white" style="background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-portfolio-memphis-playful-abstract-pink-image_593412.jpg');">
         <div class="bg-black bg-opacity-50 p-8 rounded-lg">
-            <h2 class="text-4xl font-bold">Hello, I'm Gannar</h2>
-            <p class="text-xl mt-4">A Passionate Web Developer</p>
-        </div>
-    </section>
+            <h2 class="text-4xl font-bold">Hello, Welcome to my Profolio</h2>
+            <p class="text-xl mt-4">My Name is Gannar Meriam, I'm a Senior Web Developer</p>
+        </div>   </section>
     
     <!-- Skills Section -->
-    <section class="py-16 text-center">
-        <h2 class="text-3xl font-bold mb-6">Skills</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-            <div class="p-4 bg-white shadow-md rounded-lg">HTML</div>
-            <div class="p-4 bg-white shadow-md rounded-lg">CSS</div>
-            <div class="p-4 bg-white shadow-md rounded-lg">JavaScript</div>
-            <div class="p-4 bg-white shadow-md rounded-lg">Tailwind CSS</div>
+    <section id="skills" class="py-12 px-6">
+        <h2 class="text-3xl font-bold text-center mb-6">Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-4 bg-white shadow-md rounded">HTML</div>
+            <div class="p-4 bg-white shadow-md rounded">CSS</div>
+            <div class="p-4 bg-white shadow-md rounded">JavaScript</div>
+            <div class="p-4 bg-white shadow-md rounded">Tailwind CSS</div>
         </div>
     </section>
     
     <!-- Projects Section -->
-    <section id="projects" class="py-16 bg-gray-200 text-center">
-        <h2 class="text-3xl font-bold mb-6">Projects</h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                <img src="https://source.unsplash.com/400x300/?code" alt="Project" class="w-full">
-                <div class="p-4">
-                    <h3 class="text-xl font-bold">Project Title</h3>
-                    <p class="text-gray-700">Brief description of the project.</p>
-                </div>
+    <section id="projects" class="py-12 px-6 bg-gray-200">
+        <h2 class="text-3xl font-bold text-center mb-6">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-4 shadow-md rounded">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2024/8/441535251/QG/NY/RQ/92862087/ecommerce-website.jpeg" alt="Project" class="rounded mb-4">
+                <h3 class="text-xl font-semibold">E-Commerce web Site</h3>
+                <p class="text-gray-700"> A fully functional e-commerce website that allows users to browse products, add items to a cart, and complete purchases securely.</p>
+            </div>
+            <div class="bg-white p-4 shadow-md rounded">
+                <img src="https://workdo.io/wp-content/themes/storefront-child/assets/images/dash-saas-addon/mobile-apps/project-management-apps/project-management-apps2.png" alt="Project" class="rounded mb-4">
+                <h3 class="text-xl font-semibold">Mobile Application</h3>
+                <p class="text-gray-700">A high-performing, user-friendly, and feature-rich mobile application that meets the target audience’s needs.</p>
+            </div>
+            <div class="bg-white p-4 shadow-md rounded">
+                <img src="https://darpankar.com/wp-content/plugins/quiety-core/elementor/assets/images/banner3.png" alt="Project" class="rounded mb-4">
+                <h3 class="text-xl font-semibold">Desktop Application</h3>
+                <p class="text-gray-700">A fast, reliable, and scalable desktop application designed for efficiency and user satisfaction.</p>
             </div>
         </div>
     </section>
     
     <!-- Contact Form -->
-    <section id="contact" class="py-16 text-center">
-        <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
-        <form class="max-w-lg mx-auto bg-white p-6 shadow-md rounded-lg">
-            <input type="text" placeholder="Name" class="w-full p-2 border rounded mb-4">
-            <input type="email" placeholder="Email" class="w-full p-2 border rounded mb-4">
-            <textarea placeholder="Message" class="w-full p-2 border rounded mb-4"></textarea>
-            <button class="bg-blue-500 text-white py-2 px-4 rounded">Send</button>
+    <section id="contact" class="py-12 px-6">
+        <h2 class="text-3xl font-bold text-center mb-6">Contact Me</h2>
+        <form class="max-w-lg mx-auto bg-white p-6 shadow-md rounded">
+            <input type="text" placeholder="Name" class="w-full p-2 mb-4 border rounded">
+            <input type="email" placeholder="Email" class="w-full p-2 mb-4 border rounded">
+            <textarea placeholder="Message" class="w-full p-2 mb-4 border rounded"></textarea>
+            <button class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Send</button>
         </form>
     </section>
     
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white text-center py-4">
-        <p>&copy; 2024 Your Name</p>
+    <footer class="bg-gray-800 text-white text-center py-4 mt-12">
+        <p>&copy; 2025 My Portfolio | Follow me on <a href="#" class="underline">LinkedIn</a></p>
     </footer>
-    
 </body>
 </html>
